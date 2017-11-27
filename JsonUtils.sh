@@ -33,7 +33,12 @@ displayNotification() {
 
 doValidate() {
 	typeName=$(pbpaste | jq type 2> /dev/null | xargs echo -n 2> /dev/null)
-	([ "object" == "$typeName" ] || [ "array" == "$typeName" ]) && echo $typeName || echo ""
+	if [[ "object" == "$typeName" || "array" == "$typeName" ]]
+	then
+	 	echo "$typeName"
+	else
+		echo ""
+	fi
 }
 
 notifyAndExitWhenInvalidJson() {
@@ -44,8 +49,13 @@ notifyAndExitWhenInvalidJson() {
 
 validate() {
 	typeName=$(doValidate)
-	[ -n "$typeName" ] && displayNotification $notifyTitle "$notifyValidJson $typeName" || \
-		{ osascript -e "beep"; displayNotification $notifyTitle "$notifyInvalidJson"; }
+	if [[ -n "$typeName" ]]
+	then
+		displayNotification $notifyTitle "$notifyValidJson $typeName"
+	else
+		osascript -e "beep"
+		displayNotification $notifyTitle "$notifyInvalidJson"
+	fi
 }
 
 format() {
