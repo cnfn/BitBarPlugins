@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# JSON Utils: validate, format and compact JSON entity from clipboard and then write to clipboard
+# JSON Utils: Validate, format and compact JSON entity from clipboard and then write to clipboard
 #
 # by Cnfn (http://github.com/cnfn)
 #
