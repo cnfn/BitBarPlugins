@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# JSON Utils: format or compact JSON string from clipboard and then write to clipboard
+# JSON Utils: validate, format and compact JSON entity from clipboard and then write to clipboard
 #
 # by Cnfn (http://github.com/cnfn)
 #
@@ -8,10 +8,10 @@
 # <bitbar.version>v1.3</bitbar.version>
 # <bitbar.author>Cnfn</bitbar.author>
 # <bitbar.author.github>cnfn</bitbar.author.github>
-# <bitbar.desc>format or compact JSON string from clipboard and then write to clipboard</bitbar.desc>
+# <bitbar.desc>Validate, format and compact JSON entity from clipboard and then write to clipboard. More info: https://github.com/cnfn/BitBarPlugin-JsonUtils</bitbar.desc>
 # <bitbar.image>https://raw.githubusercontent.com/cnfn/grocery/master/images/blog/bitbar_plugin_json_utils_main.png</bitbar.image>
 # <bitbar.dependencies>bash,jq</bitbar.dependencies>
-# <bitbar.abouturl>https://github.com/cnfn/bitbar-plugins/tree/master/Tools/JsonUtils</bitbar.abouturl>
+# <bitbar.abouturl>https://github.com/cnfn/BitBarPlugin-JsonUtils</bitbar.abouturl>
 #
 # Dependencies:
 #   jq (https://stedolan.github.io/jq/)

@@ -2,7 +2,7 @@
 
 ## Description
 
-A helper for **format** or **compact** JSON from clipboard and then write to clipboard.
+**Validate**, **format** and **compact** JSON entity from clipboard and then write to clipboard.
 
 ## Screenshot
 
