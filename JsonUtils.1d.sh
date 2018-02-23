@@ -18,8 +18,8 @@
 
 export PATH=$PATH:/usr/local/bin
 
-# default env is UTF-8, avoid garble
-export LANG=en_US.UTF-8
+# Hack for language not being set properly and unicode support
+export LANG="${LANG:-en_US.UTF-8}"
 
 notifyTitle="JsonUtils"
 notifyValidJson="Valid JSON, type:"
