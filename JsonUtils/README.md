@@ -67,6 +67,6 @@
    brew cask install bitbar
    ```
 
-3. Open [this plugin's page](https://getbitbar.com/plugins/Tools/JsonUtils/JsonUtils.sh), and click **+Add to BitBar**;
+3. Open [this plugin's page](https://getbitbar.com/plugins/Tools/JsonUtils.1d.sh), and click **+Add to BitBar**;
 
 4. Enjoy it! :smile:
